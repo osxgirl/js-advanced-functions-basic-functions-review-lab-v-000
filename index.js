@@ -1,6 +1,5 @@
-function saturdayFun(date="This Saturday, I want to", target="roller-skate") {
-    console.log(`${date} ${target}!`);
+function saturdayFun(activity="roller-skate") {
+    return `This Saturday, I want to ${activity}!`
+    //console.log(`${date} ${activity}!`);
   }
-
-  //saturdayFun();
-
+  saturdayFun()
